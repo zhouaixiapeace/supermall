@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const Home = () =>
-  import ('views/home/Home')
+  import ('../views/home/Home')
 const Category = () =>
   import ('views/category/Category')
 const Cart = () =>
